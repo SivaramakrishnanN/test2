@@ -269,9 +269,9 @@ This file can be re-written at any time.
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
-  
-
+  <!--DOOFINDER-SHOPIFY--> {% if content_for_header contains 'doofinder-installed.js' %} {% render 'doofinder-script-tag' %} {% endif %} <!--/DOOFINDER-SHOPIFY-->
   {% render 'shogun-head' %}
+
 </head>
 
 
